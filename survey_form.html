@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey_form_styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Survey Form</h1>
+        <p id="description" class="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label">Name 
+            <input 
+              type="text" 
+              name="name" 
+              id="name" 
+              class="form-control" 
+              placeholder="Enter your name" 
+              required />
+          </label>
+        </div>
+        <div class="form-group">
+          <label id="email-label">Email 
+            <input 
+              type="email"
+              name="email"
+              id="email" 
+              class="form-control" 
+              placeholder="Enter your email" 
+              required />
+            </label>
+        </div>
+        <div class="form-group">
+          <label id="number-label">Age
+            <input 
+            type="number" 
+            name="age" 
+            id="number" 
+            min="10" 
+            max="99" 
+            class="form-control" 
+            placeholder="Age" />
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current job type?</p>
+            <select id="dropdown" name="job-type" class="form-control" required>
+              <option disabled select value>Select one</option>
+              <option value="full">Full-Time</option>
+              <option value="part">Part-Time</option>
+              <option value="contract">Contract</option>
+              <option value="temporary">Temporary</option>
+              <option value="intern">Internship</option>
+              <option value="volunteer">Volunteer</option>
+              <option value="student">Student</option>
+              <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current industry?</p>
+            <select id="industry" name="industry" class="form-control" required>
+              <option disabled select value>Select an option</option>
+              <option value="consumer">Consumer Goods</option>
+              <option value="education">Education</option>
+              <option value="energy">Energy</option>
+              <option value="financials">Financials</option>
+              <option value="health">Healthcare</option>
+              <option value="realestate">Real Estate</option>
+              <option value="services">Services</option>
+              <option value="utilities">Utilities</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <p>Are you in career transition?</p>
+          <label>
+            <input 
+              name="transition"
+              value="definitely"
+              type="radio"  
+              class="input-radio" 
+            />Definitely
+          </label>
+          <label>
+            <input 
+              name="transition"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe
+          </label>
+          <label>
+            <input 
+              name="transition"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure
+          </label>
+        </div>
+        <div class="form-group"
+          <p>Which of these skills would you like to learn or improve? <span class="clue">(Check all that apply)</span>
+          </p>
+          <label>
+            <input 
+              name="skills"
+              value="front-end"
+              type="checkbox"
+              class="input-checkbox"
+            />Front-end development
+          </label>
+          <label>
+            <input 
+              name="skills"
+              value="back-end"
+              type="checkbox"  
+              class="input-checkbox"
+            />Back-end development
+          </label>
+          <label>
+            <input 
+              name="skills"
+              value="big-data"
+              type="checkbox"
+              class="input-checkbox"
+            />Big data & analytics
+          </label>
+          <label>
+            <input 
+              name="skills"
+              value="ai"
+              type="checkbox"
+              class="input-checkbox"
+            />Machine learning
+          </label>
+          <label>
+            <input 
+              name="skills"
+              value="bi"
+              type="checkbox"
+              class="input-checkbox"
+            />Business intelligence
+          </label>
+          <label>
+            <input 
+              name="skills"
+              value="ux"
+              type="checkbox"
+              class="input-checkbox"
+            />User experience
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Tell us more about expectations:</p>
+          <textarea
+            id="expectations"
+            class="input-textarea"
+            name="expectations"
+            placeholder="I expect to land in a dreamjob in the next few months..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit
+          </button>
+        </div>
+  </body>
+</html>
