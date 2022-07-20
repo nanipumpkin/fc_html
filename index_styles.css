@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #4f4b4a;
+  }
+  
+.header {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+  }
+
+.description {
+    font-style: italic;
+    padding-top: -15px;
+}
+
+.frame {
+    width: 500px;
+    height: 50px;
+    background-color: #f2f0f0;
+    margin: 2px auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+p {
+    padding-top: 15px;
+}
