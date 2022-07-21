@@ -1,33 +1,39 @@
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Arial;
-    background: #4f4b4a;
-  }
-  
+  margin: 0;
+  font-family: Arial;
+  background: #4f4b4a;
+}
+
 .header {
-    text-align: center;
-    padding: 32px;
-    background: #E0DDDD;
-  }
+  text-align: center;
+  padding: 32px;
+  background: #E0DDDD;
+}
 
 .description {
-    font-style: italic;
-    padding-top: -15px;
+  font-style: italic;
+  padding-top: -15px;
 }
 
 .frame {
-    width: 500px;
-    height: 50px;
-    background-color: #f2f0f0;
-    margin: 2px auto;
-    border-radius: 10px;
-    text-align: center;
-  }
+  width: 300px;
+  height: 50px;
+  background-color: #f2f0f0;
+  margin: 20px auto auto 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.frame:hover {
+  background-color: #E0DDDD;
+  cursor: pointer;
+}
+
 
 p {
-    padding-top: 15px;
+  padding-top: 15px;
 }
