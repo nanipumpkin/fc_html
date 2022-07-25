@@ -20,8 +20,9 @@ header {
 
 h1 {
   color: #f9f9f9;
-  font-size: min(2em);
+  font-size: min(2.5em);
   text-align: center;
+  padding-top: 20px;
 
 }
 
@@ -83,13 +84,13 @@ li>a {
 }
 
 main {
-  margin: 200px;
+  margin: 200px 200px 0 200px;
   
 }
 
 .frame {
   width: 400px;
-  height: 140px;
+  height: 130px;
   color: #575757;
   background-color: #d7d6d6;
   font-size: 1.2em;
