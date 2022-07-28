@@ -43,6 +43,12 @@ h2 {
   background-color: #575757;
 }
 
+.fcc {
+  color:#f9f9f9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 p {
   font-style: italic;
   color: #f9f9f9;
@@ -89,7 +95,7 @@ main {
 }
 
 .frame {
-  width: 400px;
+  width: 300px;
   height: 130px;
   color: #575757;
   background-color: #d7d6d6;
@@ -113,6 +119,12 @@ main {
   background-color: #202020;
   margin-bottom: 50px;
 
+}
+
+.git {
+  color:#202020;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
