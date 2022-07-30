@@ -26,6 +26,16 @@ h1 {
 
 }
 
+.social-icons {
+    z-index: 4;
+    color: #575757;
+    display: grid;
+    font-size: 1.2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
+}
+
 h2 {
   color: #f9f9f9;
   font-size: min(1.5em);
